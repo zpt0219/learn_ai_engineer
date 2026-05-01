@@ -6,6 +6,7 @@ This document defines the standard procedure for our daily learning sessions.
 
 ### 1. Preparation (AI)
 - Create a new file `dayX.md` based on the `plan.md` curriculum.
+- **Provide Curated Resources:** Include a section at the top with "high-signal" learning links (YouTube, technical blogs, interactive tools) relevant to the day's topics.
 - Present 3 technical questions.
 - Include a "Your Answer" placeholder for the user.
 

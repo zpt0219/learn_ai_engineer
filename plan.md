@@ -31,14 +31,14 @@
 - [ ] 3. 什么是 Temperature (温度) 和 Top-p / Top-k？它们如何影响模型生成的输出？
 
 **Day 3: Prompt Engineering 核心技巧**
-- [ ] 1. 什么是 Few-shot Prompting (少样本提示)？相比 Zero-shot 的优势是什么？
-- [ ] 2. 什么是 Chain of Thought (CoT, 思维链)？它为什么能提升大模型在推理任务上的表现？
-- [ ] 3. 除了 CoT，你还知道哪些进阶提示词策略？(如 Tree of Thoughts (ToT), Self-Consistency)
+- [/] 1. 什么是 Few-shot Prompting (少样本提示)？相比 Zero-shot 的优势是什么？
+- [/] 2. 什么是 Chain of Thought (CoT, 思维链)？它为什么能提升大模型在推理任务上的表现？
+- [/] 3. 除了 CoT，你还知道哪些进阶提示词策略？(如 Tree of Thoughts (ToT), Self-Consistency)
 
 **Day 4: Prompt 安全与优化**
-- [ ] 1. 什么是 Prompt Injection (提示词注入) 和 Jailbreak (越狱)？如何防御？
-- [ ] 2. 如果大模型输出的 JSON 格式不稳定，除了要求 "Output strictly in JSON"，还有哪些工程或模型层的解决办法？(如 System Prompt 强化、Function Calling、JSON Schema 约束)
-- [ ] 3. 什么是大模型的“幻觉” (Hallucination)？在工程上通常用哪些手段来减少或缓解幻觉？
+- [/] 1. 什么是 Prompt Injection (提示词注入) 和 Jailbreak (越狱)？如何防御？
+- [/] 2. 如果大模型输出的 JSON 格式不稳定，除了要求 "Output strictly in JSON"，还有哪些工程或模型层的解决办法？(如 System Prompt 强化、Function Calling、JSON Schema 约束)
+- [/] 3. 什么是大模型的“幻觉” (Hallucination)？在工程上通常用哪些手段来减少或缓解幻觉？
 
 ### 第 2 周：RAG 核心技术详解
 *目标：掌握 Retrieval-Augmented Generation (检索增强生成) 的各个环节。*

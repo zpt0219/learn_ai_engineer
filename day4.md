@@ -1,53 +1,53 @@
-# Day 4: Prompt 安全与优化 🛡️
+# Day 4: Prompt Safety & Optimization 🛡️
 
-欢迎来到第 4 天！今天我们将关注 Prompt 的“实战落地”：如何让模型输出更稳定、如何抵御恶意攻击，以及如何处理大模型最令人头疼的问题——幻觉。
+Welcome to Day 4! Today we will focus on the "practical application" of Prompts: how to make model outputs more stable, how to defend against malicious attacks, and how to handle the most troublesome problem for large models—hallucinations.
 
-## 📚 推荐学习资源
-在开始回答之前，这些资源可能会对你有所帮助：
-- **Prompt 安全:** [OWASP Top 10 for LLM (权威的 LLM 安全指南)](https://genai.owasp.org/llm-top-10/)
-- **结构化输出 (JSON):** [OpenAI Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs)
-- **幻觉 (Hallucination) 缓解:** [Survey of Hallucination in LLMs (论文综述/博客摘要)](https://huggingface.co/blog/zh/not-all-hallucinations-are-equal)
-
----
-
-请尝试用你自己的语言回答以下 3 个问题：
+## 📚 Recommended Learning Resources
+Before you start answering, these resources might be helpful:
+- **Prompt Safety:** [OWASP Top 10 for LLM (Authoritative LLM Safety Guide)](https://genai.owasp.org/llm-top-10/)
+- **Structured Output (JSON):** [OpenAI Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs)
+- **Hallucination Mitigation:** [Survey of Hallucination in LLMs (Paper Review/Blog Summary)](https://huggingface.co/blog/not-all-hallucinations-are-equal)
 
 ---
 
-### 1. Prompt Injection (注入) 与 Jailbreak (越狱)
-**问题：** 
-什么是 **Prompt Injection** 和 **Jailbreak**？它们之间有什么区别？作为开发者，你有哪些手段可以防御这些攻击？
-
-**你的回答：**
-> 
-
-**Corrected & Refined (AI 修订):**
-> 
+Please try to answer the following 3 questions in your own words:
 
 ---
 
-### 2. 结构化输出稳定性 (JSON)
-**问题：** 
-在开发 AI 应用时，如果模型输出的 JSON 经常格式错误或丢失字段，你会采取哪些工程手段来确保输出的稳定性？（请至少列出 3 种方案，如 Function Calling, JSON Schema 约束等）
+### 1. Prompt Injection & Jailbreak
+**Question:** 
+What are **Prompt Injection** and **Jailbreak**? What are the differences between them? As a developer, what means do you have to defend against these attacks?
 
-**你的回答：**
+**Your Answer:**
 > 
 
-**Corrected & Refined (AI 修订):**
+**Corrected & Refined (AI Revision):**
 > 
 
 ---
 
-### 3. 幻觉处理 (Hallucination Mitigation)
-**问题：** 
-什么是大模型的**“幻觉”**？在工程实践中，除了优化 Prompt，还有哪些主流的技术手段（如 RAG, N-step verification, 外部工具校验）可以显著缓解幻觉？
+### 2. Structured Output Stability (JSON)
+**Question:** 
+When developing AI applications, if the model's JSON output is often malformed or missing fields, what engineering methods would you take to ensure output stability? (Please list at least 3 solutions, such as Function Calling, JSON Schema constraints, etc.)
 
-**你的回答：**
+**Your Answer:**
 > 
 
-**Corrected & Refined (AI 修订):**
+**Corrected & Refined (AI Revision):**
 > 
 
 ---
 
-*🛡️ 小贴士：对于安全问题，可以思考一下“数据”与“指令”在 LLM 输入中是如何混合在一起的，这正是注入攻击的根源。*
+### 3. Hallucination Mitigation
+**Question:** 
+What are **"hallucinations"** in large models? In engineering practice, besides optimizing Prompts, what other mainstream technical means (such as RAG, N-step verification, external tool verification) can significantly mitigate hallucinations?
+
+**Your Answer:**
+> 
+
+**Corrected & Refined (AI Revision):**
+> 
+
+---
+
+*🛡️ Tip: For safety issues, think about how "data" and "instructions" are mixed together in the LLM input, which is the root cause of injection attacks.*

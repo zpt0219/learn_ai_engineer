@@ -1,10 +1,13 @@
-# Day 4: Prompt Safety & Optimization 🛡️
+# Week 1 Day 4: Prompt Safety & Optimization 🛡️
 
 Welcome to Day 4! Today we will focus on the "practical application" of Prompts: how to make model outputs more stable, how to defend against malicious attacks, and how to handle the most troublesome problem for large models—hallucinations.
 
 ## 📚 Recommended Learning Resources
 Before you start answering, these resources might be helpful:
 - **Prompt Safety:** [OWASP Top 10 for LLM (Authoritative LLM Safety Guide)](https://genai.owasp.org/llm-top-10/)
+- **Prompt Injection Guide:** [Lakera AI - Detailed Guide to Prompt Injection](https://www.lakera.ai/blog/guide-to-prompt-injection)
+- **Jailbreaking Guide:** [Learn Prompting - Hacking & Jailbreaking Techniques](https://learnprompting.org/docs/prompt_hacking/jailbreaking)
+- **Interactive Learning:** [Gandalf by Lakera (Try to jailbreak an AI)](https://gandalf.lakera.ai/)
 - **Structured Output (JSON):** [OpenAI Structured Outputs Guide](https://platform.openai.com/docs/guides/structured-outputs)
 - **Hallucination Mitigation:** [Survey of Hallucination in LLMs (Paper Review/Blog Summary)](https://huggingface.co/blog/not-all-hallucinations-are-equal)
 

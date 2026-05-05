@@ -5,8 +5,9 @@ This document defines the standard procedure for our daily learning sessions.
 ## 🔄 Daily Cycle
 
 ### 1. Preparation (AI)
-- Create a new file `dayX.md` based on the `plan.md` curriculum.
+- Create a new file `weekW_dayD.md` based on the `plan.md` curriculum.
 - **Provide Curated Resources:** Include a section at the top with "high-signal" learning links (YouTube, technical blogs, interactive tools) relevant to the day's topics.
+    - **Link Verification:** You MUST check every link for availability and correctness using the `read_url_content` tool before adding it to the document.
 - Present 3 technical questions.
 - Include a "Your Answer" placeholder for the user.
 

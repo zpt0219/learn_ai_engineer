@@ -20,22 +20,22 @@ This plan divides common interview questions into several core modules and plans
 ### Week 1: LLM Basics & Prompt Engineering
 *Goal: Understand the basic principles of LLMs and how to better interact with them.*
 
-**Day 1: Transformer & LLM Foundations**
+**Week 1 Day 1: Transformer & LLM Foundations**
 - [ ] 1. What is the Transformer model? Briefly describe its core architecture (Encoder-Decoder vs. Decoder-only). Why are most of today's LLMs Decoder-only?
 - [ ] 2. What are Attention and Self-Attention? What problems do they solve?
 - [ ] 3. What are Tokens and Tokenization? What is the difference between BPE and WordPiece algorithms?
 
-**Day 2: LLM Context & Mechanisms**
+**Week 1 Day 2: LLM Context & Mechanisms**
 - [x] 1. What is KV Cache? What role does it play in LLM inference?
 - [x] 2. What is the Context Window? What are the current technical approaches to extend context length?
 - [x] 3. What are Temperature and Top-p / Top-k? How do they affect the model's generated output?
 
-**Day 3: Prompt Engineering Core Skills**
-- [/] 1. What is Few-shot Prompting? What is its advantage over Zero-shot?
-- [/] 2. What is Chain of Thought (CoT)? Why does it improve the model's performance on reasoning tasks?
-- [/] 3. Besides CoT, what other advanced prompting strategies do you know? (e.g., Tree of Thoughts (ToT), Self-Consistency)
+**Week 1 Day 3: Prompt Engineering Core Skills**
+- [x] 1. What is Few-shot Prompting? What is its advantage over Zero-shot?
+- [x] 2. What is Chain of Thought (CoT)? Why does it improve the model's performance on reasoning tasks?
+- [x] 3. Besides CoT, what other advanced prompting strategies do you know? (e.g., Tree of Thoughts (ToT), Self-Consistency)
 
-**Day 4: Prompt Safety & Optimization**
+**Week 1 Day 4: Prompt Safety & Optimization**
 - [/] 1. What are Prompt Injection and Jailbreak? How do you defend against them?
 - [/] 2. If the model's JSON output is unstable, besides requesting "Output strictly in JSON", what other engineering or model-layer solutions are there? (e.g., System Prompt reinforcement, Function Calling, JSON Schema constraints)
 - [/] 3. What are "hallucinations" in large models? What engineering methods are commonly used to reduce or mitigate them?
@@ -43,7 +43,7 @@ This plan divides common interview questions into several core modules and plans
 ### Week 2: RAG Core Technologies
 *Goal: Master each stage of Retrieval-Augmented Generation (RAG).*
 
-**Day 5: RAG Basics & Document Parsing**
+**Week 2 Day 1: RAG Basics & Document Parsing**
 - [ ] 1. What is RAG? Briefly describe the standard RAG process (Parsing, Chunking, Vectorization, Retrieval, Generation). What are the pros and cons of RAG compared to direct fine-tuning?
 - [ ] 2. What are the strategies for document Chunking? How do you choose an appropriate Chunk Size and Overlap?
 - [ ] 3. What are the common pain points in parsing complex PDFs or web pages (containing tables/images)? What are the mainstream parsing tools and optimization ideas?

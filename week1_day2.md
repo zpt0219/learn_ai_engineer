@@ -1,4 +1,4 @@
-# Day 2: LLM Inference & Generation Control ⚡
+# Week 1 Day 2: LLM Inference & Generation Control ⚡
 
 Welcome to Day 2! Today we explore how LLMs generate text efficiently and how we, as engineers, control that generation process.
 
@@ -128,4 +128,4 @@ As $N$ (sequence length) grows, the attention matrix grows by $N^2$. For $N=100,
 > In production, we often use **Top-P** instead of Top-K because it adapts to the model's confidence. If the model is very sure, Top-P might only include 1-2 tokens. If it's unsure, it might include 50. Top-K is a "one-size-fits-all" approach that can be too restrictive or too loose.
 
 ---
-*Next Step: Day 3 - Prompt Engineering Core Skills (Few-shot, CoT, ToT).*
+*Next Step: Week 1 Day 3 - Prompt Engineering Core Skills (Few-shot, CoT, ToT).*

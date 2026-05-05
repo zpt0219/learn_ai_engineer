@@ -1,6 +1,6 @@
-# Day 1: Transformer & LLM Foundations 🚀
+# Week 1 Day 1: Transformer & LLM Foundations 🚀
 
-Welcome to Day 1 of your AI Engineer interview preparation! Today we focus on the bedrock of modern AI: the Transformer architecture and how models process text.
+Welcome to Week 1 Day 1 of your AI Engineer interview preparation! Today we focus on the bedrock of modern AI: the Transformer architecture and how models process text.
 
 Please try to answer the following 3 questions in your own words. You can write your answers directly below each question.
 
@@ -112,6 +112,6 @@ To truly master these for an interview, you should be able to explain the "mecha
 *   **Crucial Concept:** Both allow the model to handle "Out of Vocabulary" words by breaking them into meaningful sub-words (e.g., "unfriendly" -> "un" + "friendly").
 
 ---
-*Next Step: Day 2 - LLM Context, KV Cache, and Long-Context Techniques.*
+*Next Step: Week 1 Day 2 - LLM Context, KV Cache, and Long-Context Techniques.*
 
 

@@ -48,12 +48,12 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 2. What are the strategies for document Chunking? How do you choose an appropriate Chunk Size and Overlap?
 - [ ] 3. What are the common pain points in parsing complex PDFs or web pages (containing tables/images)? What are the mainstream parsing tools and optimization ideas?
 
-**Day 6: Vectorization & Embedding**
+**Week 2 Day 2: Vectorization & Embedding**
 - [ ] 1. What is an Embedding model? How is it different from traditional Bag-of-Words models?
 - [ ] 2. What is a Vector Database? What are some common vector databases (e.g., Chroma, Pinecone, Milvus, Qdrant)? What is the general principle of core retrieval algorithms like HNSW?
 - [ ] 3. In multi-language or vertical-specific scenarios, what should you do if open-source Embedding models perform poorly?
 
-**Day 7: Advanced Retrieval Strategies**
+**Week 2 Day 3: Advanced Retrieval Strategies**
 - [ ] 1. What is Hybrid Search? (e.g., Sparse Retrieval BM25 + Dense Retrieval) Why use hybrid search?
 - [ ] 2. What is Reranking? Why is a Reranker model needed after retrieval for secondary sorting?
 - [ ] 3. Briefly describe common Query optimization strategies (e.g., Query Expansion, Query Rewrite, HyDE).
@@ -61,17 +61,17 @@ This plan divides common interview questions into several core modules and plans
 ### Week 3: Agent Development & Fine-tuning
 *Goal: Understand AI Agent mechanisms and learn model evaluation/fine-tuning basics.*
 
-**Day 8: Agent**
+**Week 3 Day 1: Agent Development**
 - [ ] 1. What is an AI Agent? Explain the core components of an Agent (e.g., Profile/Persona, Memory, Planning, Tools/Action).
 - [ ] 2. What is the ReAct (Reasoning and Acting) framework? What is its workflow?
 - [ ] 3. What is Function Calling? How do models learn to call and execute external tools?
 
-**Day 9: Memory & Agent Frameworks**
+**Week 3 Day 2: Memory & Agent Frameworks**
 - [ ] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?
 - [ ] 2. Briefly describe the core differences and use cases for LangChain and LlamaIndex.
 - [ ] 3. What is a Multi-Agent system? What are some representative frameworks (e.g., AutoGen, CrewAI)? What pain points of single Agents do they solve?
 
-**Day 10: Model Evaluation & Engineering**
+**Week 3 Day 3: Model Evaluation & Engineering**
 - [ ] 1. How should RAG systems be evaluated? (e.g., Faithfulness, Answer Relevance in the RAGAS framework)
 - [ ] 2. When deploying LLMs, what is vLLM? What problem does its most important PagedAttention mechanism solve?
 - [ ] 3. What is LoRA (Low-Rank Adaptation)? What are its advantages over Full Fine-Tuning?

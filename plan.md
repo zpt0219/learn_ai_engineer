@@ -36,9 +36,9 @@ This plan divides common interview questions into several core modules and plans
 - [x] 3. Besides CoT, what other advanced prompting strategies do you know? (e.g., Tree of Thoughts (ToT), Self-Consistency)
 
 **Week 1 Day 4: Prompt Safety & Optimization**
-- [/] 1. What are Prompt Injection and Jailbreak? How do you defend against them?
-- [/] 2. If the model's JSON output is unstable, besides requesting "Output strictly in JSON", what other engineering or model-layer solutions are there? (e.g., System Prompt reinforcement, Function Calling, JSON Schema constraints)
-- [/] 3. What are "hallucinations" in large models? What engineering methods are commonly used to reduce or mitigate them?
+- [x] 1. What are Prompt Injection and Jailbreak? How do you defend against them?
+- [x] 2. If the model's JSON output is unstable, besides requesting "Output strictly in JSON", what other engineering or model-layer solutions are there? (e.g., System Prompt reinforcement, Function Calling, JSON Schema constraints)
+- [x] 3. What are "hallucinations" in large models? What engineering methods are commonly used to reduce or mitigate them?
 
 ### Week 2: RAG Core Technologies
 *Goal: Master each stage of Retrieval-Augmented Generation (RAG).*

@@ -44,14 +44,14 @@ This plan divides common interview questions into several core modules and plans
 *Goal: Master each stage of Retrieval-Augmented Generation (RAG).*
 
 **Week 2 Day 1: RAG Basics & Document Parsing**
-- [ ] 1. What is RAG? Briefly describe the standard RAG process (Parsing, Chunking, Vectorization, Retrieval, Generation). What are the pros and cons of RAG compared to direct fine-tuning?
-- [ ] 2. What are the strategies for document Chunking? How do you choose an appropriate Chunk Size and Overlap?
-- [ ] 3. What are the common pain points in parsing complex PDFs or web pages (containing tables/images)? What are the mainstream parsing tools and optimization ideas?
+- [x] 1. What is RAG? Briefly describe the standard RAG process (Parsing, Chunking, Vectorization, Retrieval, Generation). What are the pros and cons of RAG compared to direct fine-tuning?
+- [x] 2. What are the strategies for document Chunking? How do you choose an appropriate Chunk Size and Overlap?
+- [x] 3. What are the common pain points in parsing complex PDFs or web pages (containing tables/images)? What are the mainstream parsing tools and optimization ideas?
 
 **Week 2 Day 2: Vectorization & Embedding**
-- [ ] 1. What is an Embedding model? How is it different from traditional Bag-of-Words models?
-- [ ] 2. What is a Vector Database? What are some common vector databases (e.g., Chroma, Pinecone, Milvus, Qdrant)? What is the general principle of core retrieval algorithms like HNSW?
-- [ ] 3. In multi-language or vertical-specific scenarios, what should you do if open-source Embedding models perform poorly?
+- [x] 1. What is an Embedding model? How is it different from traditional Bag-of-Words models?
+- [x] 2. What is a Vector Database? What are some common vector databases (e.g., Chroma, Pinecone, Milvus, Qdrant)? What is the general principle of core retrieval algorithms like HNSW?
+- [x] 3. In multi-language or vertical-specific scenarios, what should you do if open-source Embedding models perform poorly?
 
 **Week 2 Day 3: Advanced Retrieval Strategies**
 - [ ] 1. What is Hybrid Search? (e.g., Sparse Retrieval BM25 + Dense Retrieval) Why use hybrid search?

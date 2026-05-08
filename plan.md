@@ -58,6 +58,16 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 2. What is Reranking? Why is a Reranker model needed after retrieval for secondary sorting?
 - [ ] 3. Briefly describe common Query optimization strategies (e.g., Query Expansion, Query Rewrite, HyDE).
 
+**Week 2 Day 4: Advanced RAG Patterns & Evaluation**
+- [ ] 1. What is Contextual Retrieval? How does prepending context to chunks (as proposed by Anthropic) improve retrieval performance?
+- [ ] 2. Explain the "RAG Triad" (Context Relevance, Groundedness, Answer Relevance). Why are these metrics critical for evaluating RAG systems?
+- [ ] 3. What are Self-RAG and Corrective RAG (CRAG)? How do they use "reflection" or "evaluators" to improve reliability?
+
+**Week 2 Day 5: GraphRAG & Knowledge Graphs**
+- [ ] 1. What is GraphRAG? In what specific scenarios (e.g., multi-hop reasoning) does it outperform traditional Vector RAG?
+- [ ] 2. How do you convert unstructured text into a Knowledge Graph? Briefly explain the concept of "Community Detection" in Microsoft's GraphRAG.
+- [ ] 3. What is Hybrid Graph-Vector RAG? How does it combine the strengths of structured relationships and semantic similarity?
+
 ### Week 3: Agent Development & Fine-tuning
 *Goal: Understand AI Agent mechanisms and learn model evaluation/fine-tuning basics.*
 

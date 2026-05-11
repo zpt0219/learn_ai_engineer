@@ -54,27 +54,32 @@ This plan divides common interview questions into several core modules and plans
 - [x] 3. In multi-language or vertical-specific scenarios, what should you do if open-source Embedding models perform poorly?
 
 **Week 2 Day 3: Advanced Retrieval Strategies**
-- [ ] 1. What is Hybrid Search? (e.g., Sparse Retrieval BM25 + Dense Retrieval) Why use hybrid search?
-- [ ] 2. What is Reranking? Why is a Reranker model needed after retrieval for secondary sorting?
-- [ ] 3. Briefly describe common Query optimization strategies (e.g., Query Expansion, Query Rewrite, HyDE).
+- [x] 1. What is Hybrid Search? (e.g., Sparse Retrieval BM25 + Dense Retrieval) Why use hybrid search?
+- [x] 2. What is Reranking? Why is a Reranker model needed after retrieval for secondary sorting?
+- [x] 3. Briefly describe common Query optimization strategies (e.g., Query Expansion, Query Rewrite, HyDE).
 
 **Week 2 Day 4: Advanced RAG Patterns & Evaluation**
-- [ ] 1. What is Contextual Retrieval? How does prepending context to chunks (as proposed by Anthropic) improve retrieval performance?
-- [ ] 2. Explain the "RAG Triad" (Context Relevance, Groundedness, Answer Relevance). Why are these metrics critical for evaluating RAG systems?
-- [ ] 3. What are Self-RAG and Corrective RAG (CRAG)? How do they use "reflection" or "evaluators" to improve reliability?
+- [x] 1. What is Contextual Retrieval? How does prepending context to chunks (as proposed by Anthropic) improve retrieval performance?
+- [x] 2. Explain the "RAG Triad" (Context Relevance, Groundedness, Answer Relevance). Why are these metrics critical for evaluating RAG systems?
+- [x] 3. What are Self-RAG and Corrective RAG (CRAG)? How do they use "reflection" or "evaluators" to improve reliability?
 
 **Week 2 Day 5: GraphRAG & Knowledge Graphs**
-- [ ] 1. What is GraphRAG? In what specific scenarios (e.g., multi-hop reasoning) does it outperform traditional Vector RAG?
-- [ ] 2. How do you convert unstructured text into a Knowledge Graph? Briefly explain the concept of "Community Detection" in Microsoft's GraphRAG.
-- [ ] 3. What is Hybrid Graph-Vector RAG? How does it combine the strengths of structured relationships and semantic similarity?
+- [x] 1. What is GraphRAG? In what specific scenarios (e.g., multi-hop reasoning) does it outperform traditional Vector RAG?
+- [x] 2. How do you convert unstructured text into a Knowledge Graph? Briefly explain the concept of "Community Detection" in Microsoft's GraphRAG.
+- [x] 3. What is Hybrid Graph-Vector RAG? How does it combine the strengths of structured relationships and semantic similarity?
+
+**Week 2 Day 6: Multimodal RAG & High-Performance Retrieval**
+- [x] 1. How does a Multimodal RAG pipeline handle images/charts? What is the role of shared vector spaces (CLIP)?
+- [x] 2. What is ColBERT's "Late Interaction" mechanism, and how does it balance speed and precision?
+- [x] 3. Why is RAG still relevant in the era of 1M+ token context windows? (Cost vs. Latency vs. Freshness)
 
 ### Week 3: Agent Development & Fine-tuning
 *Goal: Understand AI Agent mechanisms and learn model evaluation/fine-tuning basics.*
 
 **Week 3 Day 1: Agent Development**
-- [ ] 1. What is an AI Agent? Explain the core components of an Agent (e.g., Profile/Persona, Memory, Planning, Tools/Action).
-- [ ] 2. What is the ReAct (Reasoning and Acting) framework? What is its workflow?
-- [ ] 3. What is Function Calling? How do models learn to call and execute external tools?
+- [/] 1. What is an AI Agent? Explain the core components of an Agent (e.g., Profile/Persona, Memory, Planning, Tools/Action).
+- [/] 2. What is the ReAct (Reasoning and Acting) framework? What is its workflow?
+- [/] 3. What is Function Calling? How do models learn to call and execute external tools?
 
 **Week 3 Day 2: Memory & Agent Frameworks**
 - [ ] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?

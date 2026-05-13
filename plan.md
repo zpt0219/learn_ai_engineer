@@ -82,14 +82,14 @@ This plan divides common interview questions into several core modules and plans
 - [x] 3. What is Function Calling? How do models learn to call and execute external tools?
 
 **Week 3 Day 2: Memory & Agent Frameworks**
-- [/] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?
-- [/] 2. Briefly describe the core differences and use cases for LangChain and LlamaIndex.
-- [/] 3. What is a Multi-Agent system? What are some representative frameworks (e.g., AutoGen, CrewAI)? What pain points of single Agents do they solve?
+- [x] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?
+- [x] 2. Briefly describe the core differences and use cases for LangChain and LlamaIndex.
+- [x] 3. What is a Multi-Agent system? What are some representative frameworks (e.g., AutoGen, CrewAI)? What pain points of single Agents do they solve?
 
 **Week 3 Day 3: Model Evaluation & Engineering**
-- [ ] 1. How should RAG systems be evaluated? (e.g., Faithfulness, Answer Relevance in the RAGAS framework)
-- [ ] 2. When deploying LLMs, what is vLLM? What problem does its most important PagedAttention mechanism solve?
-- [ ] 3. What is LoRA (Low-Rank Adaptation)? What are its advantages over Full Fine-Tuning?
+- [/] 1. How should RAG systems be evaluated? (e.g., Faithfulness, Answer Relevance in the RAGAS framework)
+- [/] 2. When deploying LLMs, what is vLLM? What problem does its most important PagedAttention mechanism solve?
+- [/] 3. What is LoRA (Low-Rank Adaptation)? What are its advantages over Full Fine-Tuning?
 
 ---
 

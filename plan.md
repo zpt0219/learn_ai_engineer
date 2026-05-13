@@ -77,14 +77,14 @@ This plan divides common interview questions into several core modules and plans
 *Goal: Understand AI Agent mechanisms and learn model evaluation/fine-tuning basics.*
 
 **Week 3 Day 1: Agent Development**
-- [/] 1. What is an AI Agent? Explain the core components of an Agent (e.g., Profile/Persona, Memory, Planning, Tools/Action).
-- [/] 2. What is the ReAct (Reasoning and Acting) framework? What is its workflow?
-- [/] 3. What is Function Calling? How do models learn to call and execute external tools?
+- [x] 1. What is an AI Agent? Explain the core components of an Agent (e.g., Profile/Persona, Memory, Planning, Tools/Action).
+- [x] 2. What is the ReAct (Reasoning and Acting) framework? What is its workflow?
+- [x] 3. What is Function Calling? How do models learn to call and execute external tools?
 
 **Week 3 Day 2: Memory & Agent Frameworks**
-- [ ] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?
-- [ ] 2. Briefly describe the core differences and use cases for LangChain and LlamaIndex.
-- [ ] 3. What is a Multi-Agent system? What are some representative frameworks (e.g., AutoGen, CrewAI)? What pain points of single Agents do they solve?
+- [/] 1. In Agent applications, what is the difference between Short-term Memory and Long-term Memory? How are they usually implemented?
+- [/] 2. Briefly describe the core differences and use cases for LangChain and LlamaIndex.
+- [/] 3. What is a Multi-Agent system? What are some representative frameworks (e.g., AutoGen, CrewAI)? What pain points of single Agents do they solve?
 
 **Week 3 Day 3: Model Evaluation & Engineering**
 - [ ] 1. How should RAG systems be evaluated? (e.g., Faithfulness, Answer Relevance in the RAGAS framework)

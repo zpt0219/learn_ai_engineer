@@ -91,6 +91,11 @@ This plan divides common interview questions into several core modules and plans
 - [/] 2. When deploying LLMs, what is vLLM? What problem does its most important PagedAttention mechanism solve?
 - [/] 3. What is LoRA (Low-Rank Adaptation)? What are its advantages over Full Fine-Tuning?
 
+**Week 3 Day 4: Model Alignment & Advanced Fine-Tuning**
+- [ ] 1. What is SFT (Supervised Fine-Tuning)? How does it differ from Pre-training?
+- [ ] 2. Explain the core mechanism of RLHF and its three main stages (SFT, Reward Modeling, PPO).
+- [ ] 3. What is DPO (Direct Preference Optimization)? Why is it a popular alternative to RLHF?
+
 ---
 
 ## 📝 How to Use This Document to Record Progress

@@ -96,6 +96,11 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 2. Explain the core mechanism of RLHF and its three main stages (SFT, Reward Modeling, PPO).
 - [ ] 3. What is DPO (Direct Preference Optimization)? Why is it a popular alternative to RLHF?
 
+**Week 3 Day 5: LLM Quantization & Efficient Deployment**
+- [ ] 1. What is Model Quantization? Explain the difference between PTQ (Post-Training Quantization) and QAT (Quantization-Aware Training).
+- [ ] 2. What are common LLM quantization algorithms like GPTQ, AWQ, and SmoothQuant? How do they mitigate the accuracy loss of quantization?
+- [ ] 3. What are GGUF and llama.cpp? Why are they important for local deployment and edge computing?
+
 ---
 
 ## 📝 How to Use This Document to Record Progress

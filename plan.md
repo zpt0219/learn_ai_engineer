@@ -101,6 +101,11 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 2. What are common LLM quantization algorithms like GPTQ, AWQ, and SmoothQuant? How do they mitigate the accuracy loss of quantization?
 - [ ] 3. What are GGUF and llama.cpp? Why are they important for local deployment and edge computing?
 
+**Week 3 Day 6: LLMOps & Production Observability**
+- [ ] 1. What is LLM Observability? Why are tools like LangSmith or Langfuse necessary for debugging Agentic workflows?
+- [ ] 2. How do you implement Semantic Caching and LLM Routing to optimize cost and latency in production?
+- [ ] 3. What are the key security considerations for Agentic systems (e.g., Tool Access Control, Prompt Injection), and how do you mitigate them?
+
 ---
 
 ## 📝 How to Use This Document to Record Progress

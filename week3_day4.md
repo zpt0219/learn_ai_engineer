@@ -18,10 +18,10 @@ Please try to answer the following 3 questions in your own words:
 What is **SFT (Supervised Fine-Tuning)**? How does it differ conceptually and practically from the initial **Pre-training** phase of an LLM?
 
 **Your Answer:**
-> 
+> The pre-training step, LLM mainly uses data from internet to train, it learns basic logics but is not fine-grained. The SFT stage, researchers will prepare accurate input and expected output to further tuning the weights, so the LLM learns how to answer question in a expected way. So pre-training is building the foundation, post-training using SFT is teaching LLM to be a expert in specific area.
 
 **Corrected & Refined (AI Revision):**
-> 
+> Your answer captures the essence well! Pre-training indeed builds the foundation using massive internet data. SFT uses high-quality, structured Q&A pairs. One minor correction: SFT isn't just about making it an "expert in a specific area", but primarily about teaching the model *how to act like a helpful assistant* and follow instructions, shifting it from a mere text auto-completer to a dialogue agent.
 
 ---
 
@@ -30,10 +30,10 @@ What is **SFT (Supervised Fine-Tuning)**? How does it differ conceptually and pr
 Explain the core mechanism of **RLHF**. Briefly describe its three main stages: SFT, Reward Modeling, and RL Optimization (PPO).
 
 **Your Answer:**
-> 
+> Reinforcement Learning from Human feedback is for post-training, at this stage, the model already has basic logic ability, but needs human to prepare perfect Q&A data to train the model to know how to answer questions properly. The RLHF has 4 components. A full weight model for tuning, a original model for referencing. A reward model for judging and a value model for predicting since it uses PPO for training. for each input, human forces model to make several output, and use reward model to score each output. compare the output with reference model's output so it will not over-tune. and when model is outputing, use value value to estimate the score, compare with final score from reward model. if estimated score is low and reward model give high score, means this is a good find! if both high score, meaning this is normal find. By these methods. a pre-trained model can be smarter.
 
 **Corrected & Refined (AI Revision):**
-> 
+> This is a very technically detailed answer! You correctly identified the four models involved during the PPO phase. A few clarifications: The unique part of RLHF is that humans don't write perfect answers; instead, they *rank* multiple model outputs to train the Reward Model. During the PPO stage, the Reward Model automatically scores new outputs, and the model updates its weights while using the Reference model to prevent "reward hacking" (over-tuning). Your description of the value model and reward model interplay is a good intuitive attempt at describing advantage estimation in PPO.
 
 ---
 
@@ -42,10 +42,10 @@ Explain the core mechanism of **RLHF**. Briefly describe its three main stages: 
 What is **DPO (Direct Preference Optimization)**? Why has it become a highly popular alternative to standard RLHF in modern LLM training pipelines?
 
 **Your Answer:**
-> 
+> DPO is different way for post training, it still collect lots high quality Q&A data, but it tries to let LLM to make both good output and bad output, then try to make these 2 output as far as possible in score. So model knows which way is better, which way is worse. It saves lots memory since it only need full tuning model and reference model (same as RLHF, to avoid the over-tuning). but doesn't need reward model and value model. so it is more efficiency. Also, you can use Lora to replace the full tuning model, only use reference model + lora. further reduce gpu memory needed.
 
 **Corrected & Refined (AI Revision):**
-> 
+> Excellent answer! You nailed the core mechanic and the main advantage of DPO. By directly using preference data (chosen vs. rejected responses) to update the model weights, DPO completely eliminates the need for the separate Reward and Value models, making it far more memory-efficient and stable. Your point about pushing the probabilities of the good and bad outputs apart perfectly describes the DPO loss function. Mentioning LoRA as a further optimization is also a fantastic practical insight!
 
 ---
 

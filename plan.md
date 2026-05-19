@@ -12,6 +12,8 @@ This plan divides common interview questions into several core modules and plans
 4. **Module 4: Agent & Tool Calling** (ReAct, Function Calling, Memory)
 5. **Module 5: Evaluation & Engineering** (Evaluation metrics, Inference acceleration, Hallucination mitigation)
 6. **Module 6: Fine-tuning Basics** (SFT, PEFT, LoRA concepts)
+7. **Module 7: System Design & Production Architecture** (High concurrency, Load balancing, Multi-model orchestration)
+8. **Module 8: Multimodal & Advanced Paradigms** (VLM, Advanced Reasoning, Next-Gen Architectures)
 
 ---
 
@@ -105,6 +107,39 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 1. What is LLM Observability? Why are tools like LangSmith or Langfuse necessary for debugging Agentic workflows?
 - [ ] 2. How do you implement Semantic Caching and LLM Routing to optimize cost and latency in production?
 - [ ] 3. What are the key security considerations for Agentic systems (e.g., Tool Access Control, Prompt Injection), and how do you mitigate them?
+
+### Week 4: Advanced AI System Design & Multimodal
+*Goal: Master end-to-end AI system design, handle high concurrency, and explore cutting-edge multimodal and advanced reasoning models.*
+
+**Week 4 Day 1: AI System Design & Architecture**
+- [ ] 1. How would you design a scalable architecture for a high-concurrency LLM application (e.g., handling 10k QPS)? Consider load balancing, queueing, and caching.
+- [ ] 2. What are the architectural trade-offs between deploying local open-source models (e.g., Llama 3 via vLLM) vs. using commercial APIs (e.g., OpenAI/Anthropic) in an enterprise environment?
+- [ ] 3. How do you design an LLM routing system (Model Router) to dynamically route queries to different models based on complexity, cost, and latency requirements?
+
+**Week 4 Day 2: Multimodal Models (VLM) & Applications**
+- [ ] 1. What are Vision-Language Models (VLMs)? Explain how models like CLIP bridge the gap between image and text representations.
+- [ ] 2. How do modern multimodal LLMs (e.g., GPT-4o, LLaVA) process images and text simultaneously? Briefly describe the visual encoder and projection layer architecture.
+- [ ] 3. What are the primary challenges when building a Multimodal RAG system (searching images/video using text, or vice versa)?
+
+**Week 4 Day 3: Advanced Reasoning & Next-Gen Paradigms**
+- [ ] 1. What is "Test-Time Compute" (or System 2 thinking) in the context of models like OpenAI o1? How does it differ from traditional inference?
+- [ ] 2. What are Process Reward Models (PRM) vs. Outcome Reward Models (ORM) in reinforcement learning for reasoning tasks?
+- [ ] 3. How do you design an AI system for complex math or coding tasks that requires continuous verification and self-correction?
+
+**Week 4 Day 4: Domain-Specific AI & Enterprise Integration**
+- [ ] 1. How do you adapt an LLM for highly specialized domains (e.g., Medical, Legal, Financial) ensuring strict compliance and zero hallucination?
+- [ ] 2. What is Text-to-SQL? What are the common architectures and challenges when allowing LLMs to interact directly with enterprise relational databases?
+- [ ] 3. Describe an architecture for an AI-powered coding assistant (like GitHub Copilot) at an enterprise scale. How do you handle codebase context?
+
+**Week 4 Day 5: AI System Security, Privacy & Red Teaming**
+- [ ] 1. What is Red Teaming in the context of LLMs? How do you systematically test an AI application for vulnerabilities?
+- [ ] 2. How do you protect data privacy in Enterprise AI applications (e.g., PII redaction, Data Loss Prevention, RBAC for RAG)?
+- [ ] 3. What are Data Poisoning and Model Inversion attacks? How do they affect the security of fine-tuned models?
+
+**Week 4 Day 6: Comprehensive Review & Behavioral Questions**
+- [ ] 1. **System Design Scenario:** Design an end-to-end customer service AI Agent system that handles omnichannel inputs (voice, text), integrates with internal CRM, and escalates to humans when necessary.
+- [ ] 2. Describe the most challenging AI engineering problem you've solved. What trade-offs did you make?
+- [ ] 3. How do you stay updated with the rapidly evolving AI landscape, and how do you evaluate which new technologies to adopt in production?
 
 ---
 

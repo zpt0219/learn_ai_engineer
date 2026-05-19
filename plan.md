@@ -117,9 +117,9 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 3. How do you design an LLM routing system (Model Router) to dynamically route queries to different models based on complexity, cost, and latency requirements?
 
 **Week 4 Day 2: Multimodal Models (VLM) & Applications**
-- [ ] 1. What are Vision-Language Models (VLMs)? Explain how models like CLIP bridge the gap between image and text representations.
-- [ ] 2. How do modern multimodal LLMs (e.g., GPT-4o, LLaVA) process images and text simultaneously? Briefly describe the visual encoder and projection layer architecture.
-- [ ] 3. What are the primary challenges when building a Multimodal RAG system (searching images/video using text, or vice versa)?
+- [x] 1. What are Vision-Language Models (VLMs)? Explain how models like CLIP bridge the gap between image and text representations.
+- [x] 2. How do modern multimodal LLMs (e.g., GPT-4o, LLaVA) process images and text simultaneously? Briefly describe the visual encoder and projection layer architecture.
+- [x] 3. What are the primary challenges when building a Multimodal RAG system (searching images/video using text, or vice versa)?
 
 **Week 4 Day 3: Advanced Reasoning & Next-Gen Paradigms**
 - [ ] 1. What is "Test-Time Compute" (or System 2 thinking) in the context of models like OpenAI o1? How does it differ from traditional inference?

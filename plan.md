@@ -122,9 +122,9 @@ This plan divides common interview questions into several core modules and plans
 - [x] 3. What are the primary challenges when building a Multimodal RAG system (searching images/video using text, or vice versa)?
 
 **Week 4 Day 3: Advanced Reasoning & Next-Gen Paradigms**
-- [ ] 1. What is "Test-Time Compute" (or System 2 thinking) in the context of models like OpenAI o1? How does it differ from traditional inference?
-- [ ] 2. What are Process Reward Models (PRM) vs. Outcome Reward Models (ORM) in reinforcement learning for reasoning tasks?
-- [ ] 3. How do you design an AI system for complex math or coding tasks that requires continuous verification and self-correction?
+- [x] 1. What is "Test-Time Compute" (or System 2 thinking) in the context of models like OpenAI o1? How does it differ from traditional inference?
+- [x] 2. What are Process Reward Models (PRM) vs. Outcome Reward Models (ORM) in reinforcement learning for reasoning tasks?
+- [x] 3. How do you design an AI system for complex math or coding tasks that requires continuous verification and self-correction?
 
 **Week 4 Day 4: Domain-Specific AI & Enterprise Integration**
 - [ ] 1. How do you adapt an LLM for highly specialized domains (e.g., Medical, Legal, Financial) ensuring strict compliance and zero hallucination?

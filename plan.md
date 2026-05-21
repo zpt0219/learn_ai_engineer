@@ -127,9 +127,9 @@ This plan divides common interview questions into several core modules and plans
 - [x] 3. How do you design an AI system for complex math or coding tasks that requires continuous verification and self-correction?
 
 **Week 4 Day 4: Domain-Specific AI & Enterprise Integration**
-- [ ] 1. How do you adapt an LLM for highly specialized domains (e.g., Medical, Legal, Financial) ensuring strict compliance and zero hallucination?
-- [ ] 2. What is Text-to-SQL? What are the common architectures and challenges when allowing LLMs to interact directly with enterprise relational databases?
-- [ ] 3. Describe an architecture for an AI-powered coding assistant (like GitHub Copilot) at an enterprise scale. How do you handle codebase context?
+- [x] 1. How do you adapt an LLM for highly specialized domains (e.g., Medical, Legal, Financial) ensuring strict compliance and zero hallucination?
+- [x] 2. What is Text-to-SQL? What are the common architectures and challenges when allowing LLMs to interact directly with enterprise relational databases?
+- [x] 3. Describe an architecture for an AI-powered coding assistant (like GitHub Copilot) at an enterprise scale. How do you handle codebase context?
 
 **Week 4 Day 5: AI System Security, Privacy & Red Teaming**
 - [ ] 1. What is Red Teaming in the context of LLMs? How do you systematically test an AI application for vulnerabilities?

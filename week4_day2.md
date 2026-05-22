@@ -16,7 +16,12 @@ We will focus on how Vision-Language Models work, how they align images and text
 - Describe how Contrastive Learning aligns the embeddings in a shared semantic space.
 
 **Draft your answer here:**
-> *Your Draft...*
+> A VLM (Vision-Language Model) is a model that can accept an image as input and output a query result based on that image. CLIP bridges the gap by taking both an image and its text description during the training stage and converting both of them into embedding vectors in a high-dimensional space to compare their similarity. The model is trained until it outputs an image embedding similar to the text embedding. Thus, the image can be represented by an embedding vector that is then sent to an LLM.
+
+**Feedback on your draft:**
+*   **Missing Dual-Encoder Architecture:** You didn't mention that CLIP uses two separate encoders (an Image Encoder like a Vision Transformer, and a Text Encoder). This is a critical structural detail.
+*   **Missing Contrastive Learning:** You mentioned "compare their similarity", but interviewers will specifically look for the term **Contrastive Learning**. You need to explain that it maximizes similarity for *correct* image-text pairs while minimizing it for *incorrect* pairs.
+*   **Misconception about LLMs:** You stated, "the embedding vector is sent to an LLM." CLIP itself isn't an LLM and doesn't generate text; it was built primarily to align representations for tasks like zero-shot classification and retrieval.
 
 **Corrected & Refined (AI Revision):**
 Vision-Language Models (VLMs) are AI models capable of processing and understanding both visual (images/video) and linguistic (text) information simultaneously. Their core objective is to align these two fundamentally different data modalities into a shared semantic space.
@@ -39,7 +44,12 @@ Vision-Language Models (VLMs) are AI models capable of processing and understand
 - Contrast adapter-based models with natively multimodal models.
 
 **Draft your answer here:**
-> *Your Draft...*
+> Modern multimodal LLMs first divide images into different small regions in a hierarchical structure. Then, they use an embedding model to convert these different regions into embedding vectors, appending them one by one to form a matrix. They append this matrix along with the text embeddings together and send them to the LLM to generate results.
+
+**Feedback on your draft:**
+*   **Missing Projection Layer (Crucial):** You stated that the image embeddings are simply appended along with the text embeddings. This is factually incorrect because the output of a Vision Encoder (like CLIP ViT) and the input space of an LLM have different dimensions. You must mention the **Projection Layer** (or Adapter/Connector), which maps visual patch embeddings into the same dimensional space as the LLM's text tokens.
+*   **"Hierarchical structure":** You mentioned dividing images in a hierarchical structure. While some vision models do this, standard Vision Transformers (ViT) used in most VLMs just divide the image into a flat grid of patches.
+*   **Missing Native Multimodality:** The prompt asked to contrast adapter-based models with natively multimodal models. You didn't mention that newer models (like GPT-4o) process everything through a single unified network from the ground up, rather than using a separate vision encoder stitched to a text LLM.
 
 **Corrected & Refined (AI Revision):**
 While CLIP aligns text and images, it cannot *generate* text. Modern multimodal LLMs (like LLaVA, Flamingo, or the architecture behind early GPT-4V) build upon text-only LLMs by adding visual capabilities through a specific architecture pattern:
@@ -62,7 +72,12 @@ While CLIP aligns text and images, it cannot *generate* text. Modern multimodal 
 - Highlight the latency and context window costs of Multimodal RAG.
 
 **Draft your answer here:**
-> *Your Draft...*
+> Images are hard to cut into pieces since they may contain too much information. Video is way too large and can be very hard to convert into embedding vectors. Unlike text, where we can keep some overlap between each block, when retrieving images or videos it is hard to retrieve just a small piece. Returning all of them is also difficult for the LLM to process in the next step.
+
+**Feedback on your draft:**
+*   **Embedding Alignment Challenges:** You didn't mention that retrieving images using text requires them to be accurately mapped in the *same* vector space, which is especially hard for dense documents like charts or diagrams.
+*   **Document Layout & Parsing:** A massive real-world challenge in Multimodal RAG is parsing complex PDFs (intertwined text, tables, and images) and maintaining the spatial relationship between an image and its surrounding text context. 
+*   **Token Cost and Context Limits:** While you mentioned "difficult for the LLM to process in the next step," you should be specific about *why*. Passing high-resolution images consumes a massive number of tokens, quickly eating up the LLM's context window and severely increasing latency and API costs.
 
 **Corrected & Refined (AI Revision):**
 Building a Multimodal RAG (Retrieval-Augmented Generation) system involves retrieving diverse data types (images, tables, charts, text) based on a query and passing them to a VLM. The primary challenges are:

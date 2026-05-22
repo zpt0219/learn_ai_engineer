@@ -148,3 +148,4 @@ This plan divides common interview questions into several core modules and plans
 1. Pick 3 questions each day for in-depth study.
 2. You can write your understanding and summary of answers directly under each question, or attach a link to your notes.
 3. If you encounter difficulties during your study, call me anytime, and I will provide detailed explanations and easy-to-understand examples!
+4. **⚠️ Special Instruction for AI Assistant:** When generating study content or answering questions, keep all explanations and study files highly concise, structured, and easy to digest in a single study session. Prefer bullet points and short summaries over wordy text.

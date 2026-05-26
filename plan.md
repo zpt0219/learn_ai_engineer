@@ -141,6 +141,27 @@ This plan divides common interview questions into several core modules and plans
 - [ ] 2. Describe the most challenging AI engineering problem you've solved. What trade-offs did you make?
 - [ ] 3. How do you stay updated with the rapidly evolving AI landscape, and how do you evaluate which new technologies to adopt in production?
 
+### Week 5: Cutting-Edge Architectures & Production Scaling
+*Goal: Understand the latest model architectures (MoE, SSMs) and advanced deployment strategies.*
+
+**Week 5 Day 1: Mixture of Experts (MoE)**
+- [ ] 1. What is a Mixture of Experts (MoE) architecture, and how does it balance computational efficiency with model capacity?
+
+**Week 5 Day 2: State Space Models (SSMs) & Alternatives**
+- [ ] 1. Briefly explain the concept of State Space Models (like Mamba) and their advantages over Transformers for long-sequence tasks.
+
+**Week 5 Day 3: Advanced Distributed Training**
+- [ ] 1. What are Tensor Parallelism (TP) and Pipeline Parallelism (PP)? When would you use them?
+
+**Week 5 Day 4: Production Traffic & Cost Optimization**
+- [ ] 1. How do you implement continuous batching (iteration-level scheduling) to maximize GPU utilization in production?
+
+**Week 5 Day 5: AI Application Evaluation Frameworks**
+- [ ] 1. How do you design a CI/CD pipeline for an LLM application that includes automated evaluation of output quality?
+
+**Week 5 Day 6: Capstone Interview Preparation**
+- [ ] 1. **Architecture Scenario:** Design a multi-tenant LLM platform where users can upload their own documents (RAG) and use custom fine-tuned adapters (LoRA).
+
 ---
 
 ## 📝 How to Use This Document to Record Progress

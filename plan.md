@@ -162,6 +162,27 @@ This plan divides common interview questions into several core modules and plans
 **Week 5 Day 6: Capstone Interview Preparation**
 - [ ] 1. **Architecture Scenario:** Design a multi-tenant LLM platform where users can upload their own documents (RAG) and use custom fine-tuned adapters (LoRA).
 
+### Week 6: Deep Reasoning Models & Post-Training Reinforcement Learning
+*Goal: Master test-time compute scaling, GRPO reasoning mechanisms, and next-gen autonomous agent engineering.*
+
+**Week 6 Day 1: Deep Reasoning Models & Test-Time Compute (DeepSeek-R1 & o1)**
+- [ ] 1. What is Test-Time Compute Scaling, and how does Large-Scale Reinforcement Learning (e.g., GRPO without supervised warm-up) incentivize emergent self-reflection and "Aha moments"?
+
+**Week 6 Day 2: Group Relative Policy Optimization (GRPO) vs. PPO**
+- [ ] 1. How does GRPO eliminate the Critic model in RLHF to drastically save memory, and how does rule-based reward modeling work for verifiable reasoning tasks?
+
+**Week 6 Day 3: Distillation of Reasoning & Small Language Models (SLMs)**
+- [ ] 1. How can complex reasoning trajectories (Chain-of-Thought) from large reasoning models be distilled into smaller dense models (e.g., 1.5B/7B/14B)? What are the trade-offs?
+
+**Week 6 Day 4: Modern High-Throughput Inference Engines (vLLM & SGLang)**
+- [ ] 1. Explain RadixAttention (prefix caching in SGLang) and Speculative Decoding. How do they mitigate the latency bottleneck of long reasoning CoT?
+
+**Week 6 Day 5: Autonomous Coding & Computer-Use Agents**
+- [ ] 1. How do modern autonomous agents (e.g., Claude Computer Use, SWE-bench coding agents) interact with external runtime environments, sandboxes, and iterative feedback loops?
+
+**Week 6 Day 6: Final Technical Mock & Capstone System Design**
+- [ ] 1. **End-to-End System Design:** Design a high-concurrency enterprise reasoning platform that routes complex math/code tasks to reasoning models with adaptive test-time budgets and prefix caching.
+
 ---
 
 ## 📝 How to Use This Document to Record Progress
